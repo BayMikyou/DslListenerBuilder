@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.shanbay.plugins.dsl.listener.builder</id>
     <name>DslListenerBuilder</name>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <vendor email="android@shanbay.com" url="http://www.shanbay.com">扇贝网</vendor>
 
     <description><![CDATA[
