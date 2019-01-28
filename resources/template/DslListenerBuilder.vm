@@ -1,0 +1,24 @@
+    private lateinit var mListener: ListenerBuilder
+
+    fun setListener(listenerBuilder: ListenerBuilder.() -> Unit) {
+        mListener = ListenerBuilder().also(listenerBuilder)
+    }
+
+    inner class ListenerBuilder {
+#foreach(${action} in ${actionParamMap.keySet()})
+        internal var m${action}Action: (${actionParamMap.get($action)})? = null
+#if(${velocityCount} == ${actionParamMap.size()})
+
+#else
+#end
+#end
+#foreach(${action} in ${actionParamMap.keySet()})
+        fun on${action}(action: ${actionParamMap.get($action)}) {
+            m${action}Action = action
+        }
+#if(${velocityCount} != ${actionParamMap.size()})
+
+#else
+#end
+#end
+    }
