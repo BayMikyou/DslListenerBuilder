@@ -23,6 +23,7 @@
 
 ### 四、开发教程
 
+[掘金-如何让你的回调更具Kotlin风味](https://juejin.im/post/5c4f106a6fb9a049de6dc410)
 
 ### 五、使用步骤
 
