@@ -5,27 +5,28 @@
     <vendor email="android@shanbay.com" url="http://www.shanbay.com">扇贝网</vendor>
 
     <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+         <html>
+        <p>Plugin for Generate Kotlin DSL ListenerBuilder Code </p>
+        <p>The Open Source Code Repository Url: <a href="https://github.com/BayMikyou/DslListenerBuilder">https://github.com/BayMikyou/DslListenerBuilder</a></p>
+        <p>The Plugin develop blog Url: <a href="https://juejin.im/post/5c4f106a6fb9a049de6dc410">https://juejin.im/post/5c4f106a6fb9a049de6dc410</a></p>
+        <p>The more detail you can watch the below gif</p>
+        <img src="https://github.com/BayMikyou/DslListenerBuilder/raw/master/art.gif"/>
+      </html>
     ]]></description>
 
     <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      <html>
+  <b>1.0</b> (1/29/2019)
+  <ul>
+    <li>Initial release</li>
+  </ul>
+  </html>
     ]]>
     </change-notes>
 
-    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-    <idea-version since-build="173.0"/>
-
-    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-         on how to target different products -->
-    <!-- uncomment to enable plugin in all products
-    <depends>com.intellij.modules.lang</depends>
-    -->
+    <idea-version since-build="145.0"/>
     <depends>com.intellij.modules.lang</depends>
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
     </extensions>
 
     <actions>
