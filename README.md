@@ -2,6 +2,8 @@
 
 ## 使用导学
 
+![](art.gif)
+
 ### 一、简述
 一款自动生成DSL ListnerBuilder模板代码的IDEA插件，支持IDEA、AndroidStudio以及JetBrains全家桶
 
